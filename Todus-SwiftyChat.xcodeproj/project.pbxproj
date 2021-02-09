@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,19 @@
 		81E0BBD525D1CE6100265168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81E0BBD325D1CE6100265168 /* LaunchScreen.storyboard */; };
 		81E0BBE025D1CE6100265168 /* Todus_SwiftyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BBDF25D1CE6100265168 /* Todus_SwiftyChatTests.swift */; };
 		81E0BBEB25D1CE6200265168 /* Todus_SwiftyChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BBEA25D1CE6200265168 /* Todus_SwiftyChatUITests.swift */; };
+		81E0BBFD25D1CF3E00265168 /* SwiftyChat in Frameworks */ = {isa = PBXBuildFile; productRef = 81E0BBFC25D1CF3E00265168 /* SwiftyChat */; };
+		81E0BC0225D1D05000265168 /* ColorAppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BC0125D1D05000265168 /* ColorAppExtensions.swift */; };
+		81E0BC1125D1D2E200265168 /* TodusInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BC1025D1D2E200265168 /* TodusInputView.swift */; };
+		81E0BC1725D1D31F00265168 /* CaptureImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BC1625D1D31F00265168 /* CaptureImageView.swift */; };
+		81E0BC1F25D1D33500265168 /* ImageCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BC1E25D1D33500265168 /* ImageCoordinator.swift */; };
+		81E0BC2725D1D36C00265168 /* MultilineText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BC2625D1D36C00265168 /* MultilineText.swift */; };
+		81E0BC2C25D1D3B500265168 /* View++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BC2B25D1D3B500265168 /* View++.swift */; };
+		81E0BC3125D1D3FD00265168 /* NavigationBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BC3025D1D3FD00265168 /* NavigationBarModifier.swift */; };
+		81E0BC3625D1D42D00265168 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BC3525D1D42D00265168 /* StringExtensions.swift */; };
+		81E0BC3B25D1D5E700265168 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BC3A25D1D5E700265168 /* DateHelper.swift */; };
+		81E0BC4125D1D65B00265168 /* TodusDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BC4025D1D65B00265168 /* TodusDataSource.swift */; };
+		81E0BC4925D1DBDD00265168 /* ChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BC4825D1DBDD00265168 /* ChatManager.swift */; };
+		81E0BC4F25D1DF2400265168 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E0BC4E25D1DF2400265168 /* Chat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +62,18 @@
 		81E0BBE625D1CE6200265168 /* Todus-SwiftyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Todus-SwiftyChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81E0BBEA25D1CE6200265168 /* Todus_SwiftyChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todus_SwiftyChatUITests.swift; sourceTree = "<group>"; };
 		81E0BBEC25D1CE6200265168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81E0BC0125D1D05000265168 /* ColorAppExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorAppExtensions.swift; sourceTree = "<group>"; };
+		81E0BC1025D1D2E200265168 /* TodusInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodusInputView.swift; sourceTree = "<group>"; };
+		81E0BC1625D1D31F00265168 /* CaptureImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureImageView.swift; sourceTree = "<group>"; };
+		81E0BC1E25D1D33500265168 /* ImageCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCoordinator.swift; sourceTree = "<group>"; };
+		81E0BC2625D1D36C00265168 /* MultilineText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineText.swift; sourceTree = "<group>"; };
+		81E0BC2B25D1D3B500265168 /* View++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View++.swift"; sourceTree = "<group>"; };
+		81E0BC3025D1D3FD00265168 /* NavigationBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarModifier.swift; sourceTree = "<group>"; };
+		81E0BC3525D1D42D00265168 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		81E0BC3A25D1D5E700265168 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		81E0BC4025D1D65B00265168 /* TodusDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodusDataSource.swift; sourceTree = "<group>"; };
+		81E0BC4825D1DBDD00265168 /* ChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatManager.swift; sourceTree = "<group>"; };
+		81E0BC4E25D1DF2400265168 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E0BBFD25D1CF3E00265168 /* SwiftyChat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +106,6 @@
 			isa = PBXGroup;
 			children = (
 				81E0BBC725D1CE5F00265168 /* Todus-SwiftyChat */,
-				81E0BBDE25D1CE6100265168 /* Todus-SwiftyChatTests */,
 				81E0BBE925D1CE6200265168 /* Todus-SwiftyChatUITests */,
 				81E0BBC625D1CE5F00265168 /* Products */,
 			);
@@ -99,6 +124,9 @@
 		81E0BBC725D1CE5F00265168 /* Todus-SwiftyChat */ = {
 			isa = PBXGroup;
 			children = (
+				81E0BC0925D1D06700265168 /* Util */,
+				81E0BC3F25D1D63700265168 /* Mock */,
+				81E0BC4D25D1DF1500265168 /* Chat */,
 				81E0BBC825D1CE5F00265168 /* AppDelegate.swift */,
 				81E0BBCA25D1CE5F00265168 /* SceneDelegate.swift */,
 				81E0BBCC25D1CE5F00265168 /* ContentView.swift */,
@@ -106,6 +134,7 @@
 				81E0BBD325D1CE6100265168 /* LaunchScreen.storyboard */,
 				81E0BBD625D1CE6100265168 /* Info.plist */,
 				81E0BBD025D1CE6100265168 /* Preview Content */,
+				81E0BBDE25D1CE6100265168 /* Todus-SwiftyChatTests */,
 			);
 			path = "Todus-SwiftyChat";
 			sourceTree = "<group>";
@@ -136,6 +165,47 @@
 			path = "Todus-SwiftyChatUITests";
 			sourceTree = "<group>";
 		};
+		81E0BC0925D1D06700265168 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				81E0BC1525D1D30B00265168 /* Components */,
+				81E0BC0125D1D05000265168 /* ColorAppExtensions.swift */,
+				81E0BC3525D1D42D00265168 /* StringExtensions.swift */,
+				81E0BC3A25D1D5E700265168 /* DateHelper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		81E0BC1525D1D30B00265168 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				81E0BC1625D1D31F00265168 /* CaptureImageView.swift */,
+				81E0BC1E25D1D33500265168 /* ImageCoordinator.swift */,
+				81E0BC2625D1D36C00265168 /* MultilineText.swift */,
+				81E0BC2B25D1D3B500265168 /* View++.swift */,
+				81E0BC3025D1D3FD00265168 /* NavigationBarModifier.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		81E0BC3F25D1D63700265168 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				81E0BC4025D1D65B00265168 /* TodusDataSource.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		81E0BC4D25D1DF1500265168 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				81E0BC4E25D1DF2400265168 /* Chat.swift */,
+				81E0BC4825D1DBDD00265168 /* ChatManager.swift */,
+				81E0BC1025D1D2E200265168 /* TodusInputView.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +222,9 @@
 			dependencies = (
 			);
 			name = "Todus-SwiftyChat";
+			packageProductDependencies = (
+				81E0BBFC25D1CF3E00265168 /* SwiftyChat */,
+			);
 			productName = "Todus-SwiftyChat";
 			productReference = 81E0BBC525D1CE5F00265168 /* Todus-SwiftyChat.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +296,9 @@
 				Base,
 			);
 			mainGroup = 81E0BBBC25D1CE5F00265168;
+			packageReferences = (
+				81E0BBFB25D1CF3E00265168 /* XCRemoteSwiftPackageReference "SwiftyChat" */,
+			);
 			productRefGroup = 81E0BBC625D1CE5F00265168 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -266,9 +342,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E0BC3125D1D3FD00265168 /* NavigationBarModifier.swift in Sources */,
 				81E0BBC925D1CE5F00265168 /* AppDelegate.swift in Sources */,
 				81E0BBCB25D1CE5F00265168 /* SceneDelegate.swift in Sources */,
 				81E0BBCD25D1CE5F00265168 /* ContentView.swift in Sources */,
+				81E0BC0225D1D05000265168 /* ColorAppExtensions.swift in Sources */,
+				81E0BC4F25D1DF2400265168 /* Chat.swift in Sources */,
+				81E0BC4125D1D65B00265168 /* TodusDataSource.swift in Sources */,
+				81E0BC1125D1D2E200265168 /* TodusInputView.swift in Sources */,
+				81E0BC3625D1D42D00265168 /* StringExtensions.swift in Sources */,
+				81E0BC1725D1D31F00265168 /* CaptureImageView.swift in Sources */,
+				81E0BC2C25D1D3B500265168 /* View++.swift in Sources */,
+				81E0BC3B25D1D5E700265168 /* DateHelper.swift in Sources */,
+				81E0BC4925D1DBDD00265168 /* ChatManager.swift in Sources */,
+				81E0BC2725D1D36C00265168 /* MultilineText.swift in Sources */,
+				81E0BC1F25D1D33500265168 /* ImageCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +529,7 @@
 				DEVELOPMENT_TEAM = X4R2V67R3F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Todus-SwiftyChat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +551,7 @@
 				DEVELOPMENT_TEAM = X4R2V67R3F;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Todus-SwiftyChat/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -597,6 +687,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		81E0BBFB25D1CF3E00265168 /* XCRemoteSwiftPackageReference "SwiftyChat" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WilderLopez/SwiftyChat.git";
+			requirement = {
+				branch = develop_todus;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		81E0BBFC25D1CF3E00265168 /* SwiftyChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 81E0BBFB25D1CF3E00265168 /* XCRemoteSwiftPackageReference "SwiftyChat" */;
+			productName = SwiftyChat;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 81E0BBBD25D1CE5F00265168 /* Project object */;
 }
